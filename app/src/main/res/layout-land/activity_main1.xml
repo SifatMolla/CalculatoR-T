@@ -10,60 +10,57 @@
     android:paddingTop="0dp"
     tools:context="com.example.mdasifulislam.calcs.MainActivity1">
 
-
     <LinearLayout
         android:id="@+id/l1"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
+        android:layout_height="67dp"
         android:orientation="vertical">
         <ScrollView
             android:id="@+id/scrollView"
-            android:layout_height="match_parent"
+            android:layout_height="34dp"
             android:layout_width="fill_parent"
             android:layout_weight="1"
             android:fillViewport="true">
             <TextView
                 android:id="@+id/textViewe"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@android:color/background_light"
+                android:layout_height="32dp"
+
+                android:background="@android:drawable/screen_background_light"
                 android:foregroundGravity="left"
-
                 android:gravity="left"
-                android:layout_weight="1"
                 android:text=" "
-                android:textSize="40dp" />
+                android:textSize="30dp" />
+
+
         </ScrollView>
-
-
-
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/pl2"
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:layout_below="@id/l1"
-        android:orientation="vertical"
-        android:gravity="center_vertical">
 
 
         <TextView
             android:id="@+id/textView"
+
             android:layout_width="match_parent"
-            android:layout_height="45dp"
+            android:layout_height="32dp"
+
+            android:layout_weight="1"
             android:background="@android:drawable/screen_background_light"
+
             android:foregroundGravity="right"
             android:gravity="right"
+
             android:text=" "
-            android:textSize="40dp" />
+            android:textSize="30dp" />
+
+
 
     </LinearLayout>
 
+
+
+
     <LinearLayout
     android:id="@+id/l2"
-    android:layout_below="@+id/pl2"
+    android:layout_below="@+id/l1"
     android:gravity="center_vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -108,8 +105,17 @@
             android:onClick="buttonDivide"
             android:text="/" />
 
-    </LinearLayout>
 
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:onClick="justClear"
+            android:text="Clear" />
+
+    </LinearLayout>
 
     <LinearLayout
         android:id="@+id/l3"
@@ -153,6 +159,14 @@
 
             android:onClick="buttonMultiple"
             android:text="*" />
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:onClick="allClear"
+            android:text="All clear" />
     </LinearLayout>
 
     <LinearLayout
@@ -186,10 +200,10 @@
             android:id="@+id/button11"
             android:layout_width="80px"
             android:layout_height="wrap_content"
-
+            
             android:layout_weight="1"
 
-
+        
             android:onClick="button9"
             android:text="9" />
 
@@ -203,6 +217,15 @@
             android:onClick="buttonPlus"
             android:text="+" />
 
+        <Button
+            android:id="@+id/button19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:onClick="history"
+            android:text="@string/backs" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -212,7 +235,9 @@
         android:gravity="center_vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+
+        >
 
         <Button
             android:id="@+id/button13"
@@ -247,76 +272,26 @@
             android:layout_width="80px"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:onClick="buttonMinus"
-
+android:onClick="buttonMinus"
             android:text="-" />
-
-
-
-
-
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:id="@+id/l6"
-        android:layout_below="@+id/l5"
-
-        android:gravity="center_vertical"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-
-        <Button
-            android:id="@+id/button17"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-
-            android:onClick="justClear"
-            android:text="Clear" />
-
-        <Button
-            android:id="@+id/button18"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-
-            android:onClick="allClear"
-            android:text="All clear" />
-
-        <Button
-            android:id="@+id/button19"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-
-            android:onClick="history"
-            android:text="@string/backs" />
-    </LinearLayout>
-
-
-
-    <LinearLayout
-        android:id="@+id/l7"
-        android:layout_below="@+id/l6"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-
-
-        >
-
 
 
         <Button
             android:id="@+id/butto"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:onClick="fulllclear"
-            android:text="click to all clean" />
+            android:text="all clean" />
+
 
     </LinearLayout>
+
+    
+
+
+
+
 
 
 

@@ -1,4 +1,4 @@
-package com.example.mdasifulislam.myapplication1;
+package com.example.mdasifulislam.calcs;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -23,6 +23,7 @@ public class History1 extends AppCompatActivity {
         Intent i=new Intent(History1.this,MainActivity1.class);
         startActivity(i);
 
-
+        finish();
     }
+
 }

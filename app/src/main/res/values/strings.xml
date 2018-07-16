@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">My Application1</string>
+    <string name="backs"><![CDATA[<-]]></string>
 </resources>

@@ -1,12 +1,9 @@
-package com.example.mdasifulislam.myapplication1;
+package com.example.mdasifulislam.calcs;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.TextView;
 
 /**
  * Created by md.asifulislam on 9/30/16.

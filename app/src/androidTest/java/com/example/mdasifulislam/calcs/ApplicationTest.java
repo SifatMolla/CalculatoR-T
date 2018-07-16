@@ -1,4 +1,4 @@
-package com.example.mdasifulislam.myapplication1;
+package com.example.mdasifulislam.calcs;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
